@@ -18,7 +18,7 @@
         <h1>Tongasoa eto amin'ny Orinasako!</h1>
         <p>Manome tolotra tsara sy haingana ho anao izahay eto Toamasina.</p>
         <p>Inona no ilainao anio?</p>
-        <a href="https://wa.me/26134XXXXXXX" class="btn">Mifandraisa aminay amin'ny WhatsApp</a>
+        <a href="https://wa.me/261383149023" class="btn">Mifandraisa aminay amin'ny WhatsApp</a>
     </div>
 </body>
 </html>
