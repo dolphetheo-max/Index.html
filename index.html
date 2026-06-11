@@ -1,1 +1,263 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Theodolphe | Premium Freelancer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0a0f1f;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(0,0,0,.4);
+backdrop-filter:blur(10px);
+position:fixed;
+width:100%;
+z-index:1000;
+}
+
+.logo{
+font-size:25px;
+font-weight:700;
+color:#00e5ff;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),
+url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+background-size:cover;
+background-position:center;
+}
+
+.hero-content h1{
+font-size:60px;
+}
+
+.hero-content span{
+color:#00e5ff;
+}
+
+.hero-content p{
+margin:20px 0;
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 35px;
+background:#00e5ff;
+color:#000;
+border-radius:30px;
+font-weight:bold;
+text-decoration:none;
+}
+
+section{
+padding:90px 8%;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+color:#00e5ff;
+}
+
+.about{
+max-width:900px;
+margin:auto;
+text-align:center;
+line-height:1.8;
+font-size:18px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#121a30;
+padding:30px;
+border-radius:15px;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px #00e5ff;
+}
+
+.card h3{
+margin-bottom:15px;
+color:#00e5ff;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+.skill{
+background:#00e5ff;
+color:black;
+padding:12px 20px;
+border-radius:25px;
+font-weight:bold;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+margin:15px 0;
+font-size:18px;
+}
+
+footer{
+text-align:center;
+padding:25px;
+background:#050b18;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">Theodolphe</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+<h1>Hi, I'm <span>Theodolphe</span></h1>
+<p>Social Media Manager • Graphic Designer • Translator</p>
+<a href="#contact" class="btn">Hire Me</a>
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<p class="about">
+I am a passionate freelancer from Madagascar specializing in Social Media Management,
+Graphic Design, Content Creation and Translation services.
+I help businesses build a strong online presence and reach more customers through
+creative and professional digital solutions.
+</p>
+
+</section>
+
+<section id="services">
+
+<h2 class="title">My Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Social Media Management</h3>
+<p>Facebook and Instagram page management and growth strategies.</p>
+</div>
+
+<div class="card">
+<h3>Graphic Design</h3>
+<p>Professional Canva designs, flyers, posts and branding materials.</p>
+</div>
+
+<div class="card">
+<h3>Content Creation</h3>
+<p>Creative content to engage audiences and increase visibility.</p>
+</div>
+
+<div class="card">
+<h3>Translation</h3>
+<p>English, French and Malagasy translation services.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Skills</h2>
+
+<div class="skills">
+<div class="skill">Canva</div>
+<div class="skill">Facebook Marketing</div>
+<div class="skill">Instagram Marketing</div>
+<div class="skill">Graphic Design</div>
+<div class="skill">Translation</div>
+<div class="skill">Content Creation</div>
+<div class="skill">Communication</div>
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact Me</h2>
+
+<div class="contact">
+<p>📧 yourmail@gmail.com</p>
+<p>📱 WhatsApp: +261 383149023</p>
+<p>📍 Madagascar</p>
+</div>
+
+</section>
+
+<footer>
+© 2026 Theodolphe | Premium Freelancer Portfolio
+</footer>
+
+</body>
+</html>
